@@ -1,0 +1,2 @@
+# KonsoloweRPG
+Konsolowa gra RPG
