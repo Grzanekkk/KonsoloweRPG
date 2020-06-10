@@ -64,11 +64,11 @@ namespace Items.Weapons
 
         public Weapon(string aName, int aDamage, int aRange, int aValue, int aWeight)
         {
-            string _Name = aName;
-            int _Value = aValue;
-            int _Weight = aWeight;
-            int _Damage = aDamage;
-            int _Range = aRange;
+            _Name = aName;
+            _Value = aValue;
+            _Weight = aWeight;
+            _Damage = aDamage;
+            _Range = aRange;
         }
 
         public Weapon() { }

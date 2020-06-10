@@ -8,15 +8,23 @@ namespace Items.Weapons
 {
     public sealed class WoodenSword : Weapon
     {
-        
+        string _Name = "Patyk";
+        int _Damage = 2;
+        int _Range = 1;
+        int _Value = 1;
+        int _Weight = 3;
 
-        private WoodenSword(string aName, int aDamage, int aRange, int aValue, int aWeight) 
+        public WoodenSword(string aName, int aDamage, int aRange, int aValue, int aWeight) 
             : base(aName, aDamage, aRange, aValue, aWeight)
         {
-
+            aName = _Name;
+            aDamage = _Damage;
+            aRange = _Range;
+            aValue = _Value;
+            aWeight = _Weight;
         }
 
-        private WoodenSword() : base()
+        public WoodenSword() : base()
         {
 
         }
