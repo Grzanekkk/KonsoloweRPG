@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30114.128
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KonsoloweRPG", "KonsoloweRPG\KonsoloweRPG.csproj", "{77F2F7CF-AEE8-4890-9369-3806CB96D324}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Characters", "Postacie\Characters.csproj", "{D5F41187-62EF-43A4-BFB7-16A36F7AE934}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Items", "Items\Items.csproj", "{C528798F-0AD6-4221-A815-CE0E6CC3B099}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{77F2F7CF-AEE8-4890-9369-3806CB96D324}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77F2F7CF-AEE8-4890-9369-3806CB96D324}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77F2F7CF-AEE8-4890-9369-3806CB96D324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F41187-62EF-43A4-BFB7-16A36F7AE934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F41187-62EF-43A4-BFB7-16A36F7AE934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F41187-62EF-43A4-BFB7-16A36F7AE934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F41187-62EF-43A4-BFB7-16A36F7AE934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C528798F-0AD6-4221-A815-CE0E6CC3B099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C528798F-0AD6-4221-A815-CE0E6CC3B099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C528798F-0AD6-4221-A815-CE0E6CC3B099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C528798F-0AD6-4221-A815-CE0E6CC3B099}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

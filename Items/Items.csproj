@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{77F2F7CF-AEE8-4890-9369-3806CB96D324}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>KonsoloweRPG</RootNamespace>
-    <AssemblyName>KonsoloweRPG</AssemblyName>
+    <ProjectGuid>{C528798F-0AD6-4221-A815-CE0E6CC3B099}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Items</RootNamespace>
+    <AssemblyName>Items</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,21 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Food.cs" />
+    <Compile Include="ItemBase.cs" />
+    <Compile Include="Junk.cs" />
+    <Compile Include="Potion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Items\Items.csproj">
-      <Project>{c528798f-0ad6-4221-a815-ce0e6cc3b099}</Project>
-      <Name>Items</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Postacie\Characters.csproj">
-      <Project>{d5f41187-62ef-43a4-bfb7-16a36f7ae934}</Project>
-      <Name>Characters</Name>
-    </ProjectReference>
+    <Compile Include="Weapon.cs" />
+    <Compile Include="Weapons\WoodenSword.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

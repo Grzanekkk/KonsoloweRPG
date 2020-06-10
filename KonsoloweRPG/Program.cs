@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Items;
+using Characters;
 
 namespace KonsoloweRPG
 {
@@ -10,6 +12,9 @@ namespace KonsoloweRPG
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Witaj w nowej grze!");
+
+            Console.ReadKey();
         }
     }
 }
