@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Items
+namespace Items.Weapons
 {
     public class Weapon : ItemBase
     {
