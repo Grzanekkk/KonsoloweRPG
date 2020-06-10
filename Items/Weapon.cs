@@ -33,12 +33,20 @@ namespace Items.Weapons
             {
                 return _Value;
             }
+            set
+            {
+                _Value = value;
+            }
         }
         public override int Weight 
         { 
             get
             {
                 return _Weight;
+            }
+            set
+            {
+                _Weight = value;
             }
         }
         public int Damage
@@ -47,12 +55,20 @@ namespace Items.Weapons
             {
                 return _Damage;
             }
+            set
+            {
+                _Damage = value;
+            }
         }
         public int Range
         {
             get
             {
                 return _Range;
+            }
+            set
+            {
+                _Range = value;
             }
         }
 
@@ -62,7 +78,7 @@ namespace Items.Weapons
         #region Constructors
 
 
-        public Weapon(string aName, int aDamage, int aRange, int aValue, int aWeight)
+        protected Weapon(string aName, int aDamage, int aRange, int aValue, int aWeight)
         {
             _Name = aName;
             _Value = aValue;
@@ -71,7 +87,10 @@ namespace Items.Weapons
             _Range = aRange;
         }
 
-        public Weapon() { }
+        public Weapon() 
+        {
+            _Name = "Karolina";
+        }
 
 
 

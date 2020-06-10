@@ -14,9 +14,15 @@ namespace KonsoloweRPG
         {
             Console.WriteLine("Witaj w nowej grze!");
 
-            WoodenSword newWeapon = new WoodenSword("Patyk", 2, 1, 1, 3);
+            WoodenSword newWeapon = new WoodenSword();
+            Weapon weapon = new Weapon();
 
             Console.WriteLine(newWeapon.Name);
+            Console.WriteLine(newWeapon.Damage);
+            Console.WriteLine(newWeapon.Range);
+            Console.WriteLine(newWeapon.Value);
+            Console.WriteLine(newWeapon.Weight);
+            Console.WriteLine(weapon.Name);
 
 
             Console.ReadKey();

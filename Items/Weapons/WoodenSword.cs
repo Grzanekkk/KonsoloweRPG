@@ -14,19 +14,23 @@ namespace Items.Weapons
         int _Value = 1;
         int _Weight = 3;
 
-        public WoodenSword(string aName, int aDamage, int aRange, int aValue, int aWeight) 
+        private WoodenSword(string aName, int aDamage, int aRange, int aValue, int aWeight) 
             : base(aName, aDamage, aRange, aValue, aWeight)
         {
-            aName = _Name;
-            aDamage = _Damage;
-            aRange = _Range;
-            aValue = _Value;
-            aWeight = _Weight;
+            Name = aName;
+            Damage = aDamage;
+            Range = aRange;
+            Value = aValue;
+            Weight = aWeight;
         }
 
         public WoodenSword() : base()
         {
-
+            Name = _Name;
+            Damage = _Damage;
+            Range = _Range;
+            Value = _Value;
+            Weight = _Weight;
         }
     }
 }

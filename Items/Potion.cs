@@ -30,12 +30,20 @@ namespace Items.Potions
             {
                 return _Value;
             }
+            set
+            {
+                _Value = value;
+            }
         }
         public override int Weight 
         {
             get
             {
                 return _Weight;
+            }
+            set
+            {
+                _Weight = value;
             }
         }
     }
